@@ -1,5 +1,5 @@
 {
-    "name": "CartMove",
+    "name": "CartController",
     "maps": [
         {
             "name": "Move",
@@ -90,6 +90,34 @@
                     "action": "Turn",
                     "isComposite": false,
                     "isPartOfComposite": true
+                }
+            ]
+        },
+        {
+            "name": "PutItems",
+            "id": "0be07159-c179-4e47-ab9a-5a5edcecbc58",
+            "actions": [
+                {
+                    "name": "PutItems",
+                    "type": "Button",
+                    "id": "55cb1d66-fed2-42b4-a6cf-436b87fd2ba7",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "Press",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1ee57764-936b-411b-81c3-ced635e32a6c",
+                    "path": "<Keyboard>/space",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PutItems",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

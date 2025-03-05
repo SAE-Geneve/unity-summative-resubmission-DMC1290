@@ -10,7 +10,7 @@ public class CartMove : MonoBehaviour
 
     private Vector3 _inputMove;
     private float _turnInput = 0f;
-
+    private int _items = 1;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -36,6 +36,11 @@ public class CartMove : MonoBehaviour
     public void InputTurn(InputAction.CallbackContext context)
     {
         _turnInput = context.ReadValue<float>();
+    }
+
+    public void InputPutItems()
+    {
+        
     }
     
     private void OnTriggerEnter(Collider other)

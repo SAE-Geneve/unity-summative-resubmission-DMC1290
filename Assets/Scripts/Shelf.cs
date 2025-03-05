@@ -3,7 +3,8 @@ using UnityEngine;
 
 public class Shelf : MonoBehaviour
 {
-    [SerializeField] private 
+    [SerializeField] private Transform[] shelfItems;
+    [SerializeField] private Transform[] shelfArray;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -14,7 +15,11 @@ public class Shelf : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // for ()
         
+             Transform randomShelf = shelfArray[Random.Range(0, shelfArray.Length)];
+        
+
     }
 
     
