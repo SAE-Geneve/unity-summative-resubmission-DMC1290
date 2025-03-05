@@ -54,8 +54,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.3368305, y: 0.4222039, z: 1}
-  m_Center: {x: -0.0014023855, y: 0.19377464, z: 0}
+  m_Size: {x: 0.32770073, y: 0.4222039, z: 0.509854}
+  m_Center: {x: 0.0031625107, y: 0.19377464, z: -0.0137541}
 --- !u!54 &2543992163920368401
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -81,7 +81,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 84
   m_CollisionDetection: 0
 --- !u!114 &2616856392376162618
 MonoBehaviour:
@@ -95,8 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 75c0f25d816ac5e4f95437b6c95a13e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rb: {fileID: 2543992163920368401}
-  cartSpeed: 10
+  cartSpeed: 5
+  turnSpeed: 50
 --- !u!1001 &8277919212707712397
 PrefabInstance:
   m_ObjectHideFlags: 0

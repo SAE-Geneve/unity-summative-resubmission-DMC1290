@@ -37,4 +37,13 @@ public class CartMove : MonoBehaviour
     {
         _turnInput = context.ReadValue<float>();
     }
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            Debug.Log("collides");
+            
+        }
+    }
 }
