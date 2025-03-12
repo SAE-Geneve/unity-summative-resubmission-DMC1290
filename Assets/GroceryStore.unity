@@ -18738,7 +18738,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cartSpeed: 5
-  turnSpeed: 79.9
+  turnSpeed: 67.9
 --- !u!65 &1197550238
 BoxCollider:
   m_ObjectHideFlags: 0
